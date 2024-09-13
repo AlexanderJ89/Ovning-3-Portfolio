@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="CSS/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <navbar>
+            <ul>
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul>
+        </navbar>
+    </header>
+
+    <main>
+
+        <section class="row">
+
+            <article class="column">
+                <img class="profile" src="CSS/1.jpg">
+            </article>
+
+            <article class="column">
+                <h1>ALEXANDER JOHANSSON</h1>
+                <h2>Developer</h2>
+
+                <div class="portfolio">
+                    <h3>Portfolio</h3>
+                    <div class="pictures">
+
+                        <div class="pics">
+                            <img src="CSS/chef.jpg">
+                            <img src="CSS/sailboat.jpg">
+                        </div>
+
+                        <div class="pics">
+                            <img src="CSS/p6.jpg">
+                            <img src="CSS/rocks.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <h3>About</h3>
+                    <p>"I'm currently studying a Higher Vocational Education 
+                        in order to become a Javascript Developer."</p>
+                    <h3>My skills include:</h3>
+                    <p>CSS, Git, and HTML.</p>
+                </div>
+
+                <div class="contact"></div>
+                    <h3>Contact me</h3>
+                    <p>Fill in the blanks and briefly describe what you want me to help you with.</p>
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="australia">Sweden</option>
+                          <option value="canada">USA</option>
+                          <option value="usa">France</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </article>  
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://github.com/AlexanderJ89" class="fa fa-github"></a>
+    </footer>
+    
+</body>
+</html>
